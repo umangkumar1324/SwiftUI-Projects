@@ -7,184 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20365DCA24F0D92B004B4F76 /* taskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20365DC924F0D92B004B4F76 /* taskListViewModel.swift */; };
-		20706DF624F048B4009ED1DC /* TaskCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20706DF524F048B4009ED1DC /* TaskCellViewModel.swift */; };
-		20BE656224EED68800B4DC37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE656124EED68800B4DC37 /* AppDelegate.swift */; };
-		20BE656424EED68800B4DC37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE656324EED68800B4DC37 /* SceneDelegate.swift */; };
-		20BE656724EED68800B4DC37 /* fireBaseToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20BE656524EED68800B4DC37 /* fireBaseToDo.xcdatamodeld */; };
-		20BE656924EED68800B4DC37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE656824EED68800B4DC37 /* ContentView.swift */; };
-		20BE656B24EED69200B4DC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BE656A24EED69200B4DC37 /* Assets.xcassets */; };
-		20BE656E24EED69200B4DC37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BE656D24EED69200B4DC37 /* Preview Assets.xcassets */; };
-		20BE657124EED69200B4DC37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BE656F24EED69200B4DC37 /* LaunchScreen.storyboard */; };
-		20BE657924EEE8E200B4DC37 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE657824EEE8E200B4DC37 /* Task.swift */; };
-		20EEEB3124F4242A0093A77B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20EEEB3024F4242A0093A77B /* GoogleService-Info.plist */; };
-		C2F55F9F43B214E5F286FE36 /* Pods_fireBaseToDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C384C8C74143B1710C0F289A /* Pods_fireBaseToDo.framework */; };
+		20D93D65250163B300365CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D93D64250163B300365CB3 /* AppDelegate.swift */; };
+		20D93D67250163B300365CB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D93D66250163B300365CB3 /* SceneDelegate.swift */; };
+		20D93D6A250163B300365CB3 /* fireBasetoDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20D93D68250163B300365CB3 /* fireBasetoDo.xcdatamodeld */; };
+		20D93D6C250163B300365CB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D93D6B250163B300365CB3 /* ContentView.swift */; };
+		20D93D6E250163B700365CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D93D6D250163B700365CB3 /* Assets.xcassets */; };
+		20D93D71250163B700365CB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D93D70250163B700365CB3 /* Preview Assets.xcassets */; };
+		20D93D74250163B700365CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D93D72250163B700365CB3 /* LaunchScreen.storyboard */; };
+		20D93D7D250163E200365CB3 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D93D7C250163E200365CB3 /* Data.swift */; };
+		20D93D8225017DC700365CB3 /* taskCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D93D8125017DC600365CB3 /* taskCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20365DC924F0D92B004B4F76 /* taskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskListViewModel.swift; sourceTree = "<group>"; };
-		20706DF524F048B4009ED1DC /* TaskCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellViewModel.swift; sourceTree = "<group>"; };
-		20BE655E24EED68800B4DC37 /* fireBaseToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fireBaseToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		20BE656124EED68800B4DC37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20BE656324EED68800B4DC37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		20BE656624EED68800B4DC37 /* fireBaseToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fireBaseToDo.xcdatamodel; sourceTree = "<group>"; };
-		20BE656824EED68800B4DC37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		20BE656A24EED69200B4DC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20BE656D24EED69200B4DC37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		20BE657024EED69200B4DC37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		20BE657224EED69200B4DC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20BE657824EEE8E200B4DC37 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		20EEEB3024F4242A0093A77B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		8D4AFDFE259CB07767277562 /* Pods-fireBaseToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fireBaseToDo.release.xcconfig"; path = "Target Support Files/Pods-fireBaseToDo/Pods-fireBaseToDo.release.xcconfig"; sourceTree = "<group>"; };
-		B9ACEAADE187AB299376E696 /* Pods-fireBaseToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fireBaseToDo.debug.xcconfig"; path = "Target Support Files/Pods-fireBaseToDo/Pods-fireBaseToDo.debug.xcconfig"; sourceTree = "<group>"; };
-		C384C8C74143B1710C0F289A /* Pods_fireBaseToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fireBaseToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D93D61250163B300365CB3 /* fireBasetoDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fireBasetoDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D93D64250163B300365CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20D93D66250163B300365CB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		20D93D69250163B300365CB3 /* fireBasetoDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fireBasetoDo.xcdatamodel; sourceTree = "<group>"; };
+		20D93D6B250163B300365CB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20D93D6D250163B700365CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20D93D70250163B700365CB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20D93D73250163B700365CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20D93D75250163B700365CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D93D7C250163E200365CB3 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		20D93D8125017DC600365CB3 /* taskCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20BE655B24EED68800B4DC37 /* Frameworks */ = {
+		20D93D5E250163B300365CB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F55F9F43B214E5F286FE36 /* Pods_fireBaseToDo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20706DF424F04886009ED1DC /* ViewModels */ = {
+		20D93D58250163B300365CB3 = {
 			isa = PBXGroup;
 			children = (
-				20706DF524F048B4009ED1DC /* TaskCellViewModel.swift */,
-				20365DC924F0D92B004B4F76 /* taskListViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		20BE655524EED68800B4DC37 = {
-			isa = PBXGroup;
-			children = (
-				20BE656024EED68800B4DC37 /* fireBaseToDo */,
-				20BE655F24EED68800B4DC37 /* Products */,
-				523A5CDAA304D92B2E781F2A /* Pods */,
-				E6BCF8DCB06469B9671D3BD1 /* Frameworks */,
+				20D93D63250163B300365CB3 /* fireBasetoDo */,
+				20D93D62250163B300365CB3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		20BE655F24EED68800B4DC37 /* Products */ = {
+		20D93D62250163B300365CB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20BE655E24EED68800B4DC37 /* fireBaseToDo.app */,
+				20D93D61250163B300365CB3 /* fireBasetoDo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20BE656024EED68800B4DC37 /* fireBaseToDo */ = {
+		20D93D63250163B300365CB3 /* fireBasetoDo */ = {
 			isa = PBXGroup;
 			children = (
-				20BE657C24EEEB5700B4DC37 /* App */,
-				20706DF424F04886009ED1DC /* ViewModels */,
-				20BE657B24EEEB4000B4DC37 /* Views */,
-				20BE656A24EED69200B4DC37 /* Assets.xcassets */,
-				20BE656F24EED69200B4DC37 /* LaunchScreen.storyboard */,
-				20BE657224EED69200B4DC37 /* Info.plist */,
-				20BE656524EED68800B4DC37 /* fireBaseToDo.xcdatamodeld */,
-				20EEEB3024F4242A0093A77B /* GoogleService-Info.plist */,
-				20BE656C24EED69200B4DC37 /* Preview Content */,
+				20D93D8025017DA400365CB3 /* View Models */,
+				20D93D7B250163CB00365CB3 /* Model */,
+				20D93D7E2501647600365CB3 /* App */,
+				20D93D7F2501648900365CB3 /* View */,
+				20D93D6D250163B700365CB3 /* Assets.xcassets */,
+				20D93D72250163B700365CB3 /* LaunchScreen.storyboard */,
+				20D93D75250163B700365CB3 /* Info.plist */,
+				20D93D68250163B300365CB3 /* fireBasetoDo.xcdatamodeld */,
+				20D93D6F250163B700365CB3 /* Preview Content */,
 			);
-			path = fireBaseToDo;
+			path = fireBasetoDo;
 			sourceTree = "<group>";
 		};
-		20BE656C24EED69200B4DC37 /* Preview Content */ = {
+		20D93D6F250163B700365CB3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				20BE656D24EED69200B4DC37 /* Preview Assets.xcassets */,
+				20D93D70250163B700365CB3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		20BE657A24EEE8F200B4DC37 /* Model */ = {
+		20D93D7B250163CB00365CB3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				20BE657824EEE8E200B4DC37 /* Task.swift */,
+				20D93D7C250163E200365CB3 /* Data.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		20BE657B24EEEB4000B4DC37 /* Views */ = {
+		20D93D7E2501647600365CB3 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				20BE656824EED68800B4DC37 /* ContentView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		20BE657C24EEEB5700B4DC37 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				20BE656124EED68800B4DC37 /* AppDelegate.swift */,
-				20BE656324EED68800B4DC37 /* SceneDelegate.swift */,
-				20BE657A24EEE8F200B4DC37 /* Model */,
+				20D93D64250163B300365CB3 /* AppDelegate.swift */,
+				20D93D66250163B300365CB3 /* SceneDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		523A5CDAA304D92B2E781F2A /* Pods */ = {
+		20D93D7F2501648900365CB3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B9ACEAADE187AB299376E696 /* Pods-fireBaseToDo.debug.xcconfig */,
-				8D4AFDFE259CB07767277562 /* Pods-fireBaseToDo.release.xcconfig */,
+				20D93D6B250163B300365CB3 /* ContentView.swift */,
 			);
-			name = Pods;
-			path = Pods;
+			path = View;
 			sourceTree = "<group>";
 		};
-		E6BCF8DCB06469B9671D3BD1 /* Frameworks */ = {
+		20D93D8025017DA400365CB3 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
-				C384C8C74143B1710C0F289A /* Pods_fireBaseToDo.framework */,
+				20D93D8125017DC600365CB3 /* taskCellViewModel.swift */,
 			);
-			name = Frameworks;
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20BE655D24EED68800B4DC37 /* fireBaseToDo */ = {
+		20D93D60250163B300365CB3 /* fireBasetoDo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20BE657524EED69200B4DC37 /* Build configuration list for PBXNativeTarget "fireBaseToDo" */;
+			buildConfigurationList = 20D93D78250163B700365CB3 /* Build configuration list for PBXNativeTarget "fireBasetoDo" */;
 			buildPhases = (
-				C147486174C368CC32D3D494 /* [CP] Check Pods Manifest.lock */,
-				20BE655A24EED68800B4DC37 /* Sources */,
-				20BE655B24EED68800B4DC37 /* Frameworks */,
-				20BE655C24EED68800B4DC37 /* Resources */,
-				D96854B6AAD969072EAEB03B /* [CP] Embed Pods Frameworks */,
+				20D93D5D250163B300365CB3 /* Sources */,
+				20D93D5E250163B300365CB3 /* Frameworks */,
+				20D93D5F250163B300365CB3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = fireBaseToDo;
-			productName = fireBaseToDo;
-			productReference = 20BE655E24EED68800B4DC37 /* fireBaseToDo.app */;
+			name = fireBasetoDo;
+			productName = fireBasetoDo;
+			productReference = 20D93D61250163B300365CB3 /* fireBasetoDo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		20BE655624EED68800B4DC37 /* Project object */ = {
+		20D93D59250163B300365CB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Umang Kumar";
 				TargetAttributes = {
-					20BE655D24EED68800B4DC37 = {
-						CreatedOnToolsVersion = 11.6;
+					20D93D60250163B300365CB3 = {
+						CreatedOnToolsVersion = 11.7;
 					};
 				};
 			};
-			buildConfigurationList = 20BE655924EED68800B4DC37 /* Build configuration list for PBXProject "fireBaseToDo" */;
+			buildConfigurationList = 20D93D5C250163B300365CB3 /* Build configuration list for PBXProject "fireBasetoDo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -192,94 +159,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 20BE655524EED68800B4DC37;
-			productRefGroup = 20BE655F24EED68800B4DC37 /* Products */;
+			mainGroup = 20D93D58250163B300365CB3;
+			productRefGroup = 20D93D62250163B300365CB3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20BE655D24EED68800B4DC37 /* fireBaseToDo */,
+				20D93D60250163B300365CB3 /* fireBasetoDo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		20BE655C24EED68800B4DC37 /* Resources */ = {
+		20D93D5F250163B300365CB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BE657124EED69200B4DC37 /* LaunchScreen.storyboard in Resources */,
-				20EEEB3124F4242A0093A77B /* GoogleService-Info.plist in Resources */,
-				20BE656E24EED69200B4DC37 /* Preview Assets.xcassets in Resources */,
-				20BE656B24EED69200B4DC37 /* Assets.xcassets in Resources */,
+				20D93D74250163B700365CB3 /* LaunchScreen.storyboard in Resources */,
+				20D93D71250163B700365CB3 /* Preview Assets.xcassets in Resources */,
+				20D93D6E250163B700365CB3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		C147486174C368CC32D3D494 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-fireBaseToDo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D96854B6AAD969072EAEB03B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-fireBaseToDo/Pods-fireBaseToDo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-fireBaseToDo/Pods-fireBaseToDo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fireBaseToDo/Pods-fireBaseToDo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		20BE655A24EED68800B4DC37 /* Sources */ = {
+		20D93D5D250163B300365CB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BE656224EED68800B4DC37 /* AppDelegate.swift in Sources */,
-				20BE656424EED68800B4DC37 /* SceneDelegate.swift in Sources */,
-				20BE657924EEE8E200B4DC37 /* Task.swift in Sources */,
-				20706DF624F048B4009ED1DC /* TaskCellViewModel.swift in Sources */,
-				20BE656924EED68800B4DC37 /* ContentView.swift in Sources */,
-				20365DCA24F0D92B004B4F76 /* taskListViewModel.swift in Sources */,
-				20BE656724EED68800B4DC37 /* fireBaseToDo.xcdatamodeld in Sources */,
+				20D93D6A250163B300365CB3 /* fireBasetoDo.xcdatamodeld in Sources */,
+				20D93D8225017DC700365CB3 /* taskCellViewModel.swift in Sources */,
+				20D93D7D250163E200365CB3 /* Data.swift in Sources */,
+				20D93D65250163B300365CB3 /* AppDelegate.swift in Sources */,
+				20D93D6C250163B300365CB3 /* ContentView.swift in Sources */,
+				20D93D67250163B300365CB3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		20BE656F24EED69200B4DC37 /* LaunchScreen.storyboard */ = {
+		20D93D72250163B700365CB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				20BE657024EED69200B4DC37 /* Base */,
+				20D93D73250163B700365CB3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -287,7 +210,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		20BE657324EED69200B4DC37 /* Debug */ = {
+		20D93D76250163B700365CB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -337,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -347,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		20BE657424EED69200B4DC37 /* Release */ = {
+		20D93D77250163B700365CB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -401,42 +324,40 @@
 			};
 			name = Release;
 		};
-		20BE657624EED69200B4DC37 /* Debug */ = {
+		20D93D79250163B700365CB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9ACEAADE187AB299376E696 /* Pods-fireBaseToDo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"fireBaseToDo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"fireBasetoDo/Preview Content\"";
 				DEVELOPMENT_TEAM = VGHV96D375;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = fireBaseToDo/Info.plist;
+				INFOPLIST_FILE = fireBasetoDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Umangkumar1.fireBaseToDo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Umangkumar1.fireBasetoDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		20BE657724EED69200B4DC37 /* Release */ = {
+		20D93D7A250163B700365CB3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D4AFDFE259CB07767277562 /* Pods-fireBaseToDo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"fireBaseToDo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"fireBasetoDo/Preview Content\"";
 				DEVELOPMENT_TEAM = VGHV96D375;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = fireBaseToDo/Info.plist;
+				INFOPLIST_FILE = fireBasetoDo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Umangkumar1.fireBaseToDo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Umangkumar1.fireBasetoDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,20 +367,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20BE655924EED68800B4DC37 /* Build configuration list for PBXProject "fireBaseToDo" */ = {
+		20D93D5C250163B300365CB3 /* Build configuration list for PBXProject "fireBasetoDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20BE657324EED69200B4DC37 /* Debug */,
-				20BE657424EED69200B4DC37 /* Release */,
+				20D93D76250163B700365CB3 /* Debug */,
+				20D93D77250163B700365CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20BE657524EED69200B4DC37 /* Build configuration list for PBXNativeTarget "fireBaseToDo" */ = {
+		20D93D78250163B700365CB3 /* Build configuration list for PBXNativeTarget "fireBasetoDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20BE657624EED69200B4DC37 /* Debug */,
-				20BE657724EED69200B4DC37 /* Release */,
+				20D93D79250163B700365CB3 /* Debug */,
+				20D93D7A250163B700365CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -467,17 +388,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		20BE656524EED68800B4DC37 /* fireBaseToDo.xcdatamodeld */ = {
+		20D93D68250163B300365CB3 /* fireBasetoDo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				20BE656624EED68800B4DC37 /* fireBaseToDo.xcdatamodel */,
+				20D93D69250163B300365CB3 /* fireBasetoDo.xcdatamodel */,
 			);
-			currentVersion = 20BE656624EED68800B4DC37 /* fireBaseToDo.xcdatamodel */;
-			path = fireBaseToDo.xcdatamodeld;
+			currentVersion = 20D93D69250163B300365CB3 /* fireBasetoDo.xcdatamodel */;
+			path = fireBasetoDo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 20BE655624EED68800B4DC37 /* Project object */;
+	rootObject = 20D93D59250163B300365CB3 /* Project object */;
 }

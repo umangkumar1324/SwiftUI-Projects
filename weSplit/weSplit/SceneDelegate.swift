@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  weSplit
 //
-//  Created by Umang Kumar on 8/1/20.
+//  Created by Umang Kumar on 9/2/20.
 //  Copyright © 2020 Umang Kumar. All rights reserved.
 //
 
